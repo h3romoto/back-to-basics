@@ -1,0 +1,25 @@
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.model-3-title {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  width: 600px;
+}
+
+.model-3-description {
+  text-align: center;
+  font-size: 30px;
+  width: 600px;
+}
+
+.touchless-delivery {
+  text-decoration: underline;
+  width: 300px;
+}
+
+.touchless-delivery:hover {
+  cursor: pointer;
+}
