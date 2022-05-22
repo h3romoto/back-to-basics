@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>div example</title>
+    <style>
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .profile {
+        display: inline-block;
+        width: 299px;
+        height: 440px;
+        border-width: 2px;
+        border-radius: 5px;
+        border-style: solid;
+        border-color:white;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+      }
+
+      .profile-pic {
+        width: 303px;
+        height: 300px;
+        display: inline-block;
+        object-fit: cover;
+        margin-left: -2px;
+      }
+
+      .profile-name {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0;
+        margin-left: 5px;
+      }
+
+      .profile-stats {
+        color: rgb(112, 107, 107);
+        margin-top: 8px;
+        margin-left: 5px;
+      }
+
+      .profile-button {
+        color: white;
+        background-color: #188ed2;
+        margin-left: 5px;
+        font-size: 16px;
+        border: none;
+        border-radius: 3px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: opacity 1s;
+      }
+
+      .profile-button:hover {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+
+      .profile-button:active {
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile">
+      <img class="profile-pic" src="images/puppy.jpeg">
+      <p class="profile-name">
+        Oliver
+      </p>  
+      <p class="profile-stats">
+        2 mutual friends
+      </p>
+      <button class="profile-button">
+        Add Friend
+      </button>
+    </div>
+  </body>
+</html>
